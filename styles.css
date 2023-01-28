@@ -119,11 +119,6 @@ section img#mountains_front
     margin-bottom: 10px;
     color: #ffff;
 }
-.sec p
-{
-    font-size: 1em;
-    color: #ffff;
-}
 section::before
 {
     content: '';
@@ -133,4 +128,92 @@ section::before
     height: 100px;
     background: linear-gradient(to top,#1c0522,transparent);
     z-index: 1000;
+}
+.sec h3
+{
+    font-size: 1em;
+    font-style: italic;
+    color:#7597de;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sec img#david
+{
+    margin-top: 30px;
+    float: left;
+    margin-right: 30px;
+}
+.sec h4
+{
+    color: #ffff;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec p
+{
+    color: #ffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sec2 img#david2
+{
+    margin-top: 10px;
+    float: right;
+    margin-right: 100px;
+}
+.sec2 h4
+{
+    color: #ffff;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 100px;
+}
+.sec2 p
+{
+    color: #ffff;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    margin-left: 100px;
+}
+.sec2
+{
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+.youtube
+{
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+.youtube img#alan, img#alec, img#zayn
+{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.youtube::after
+{
+    content: "";
+    display: table;
+    clear: both;
+    box-sizing: border-box;
+}
+.youtube .nav_link
+{
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+.youtube a
+{
+    color: #ffff;
+    text-decoration: none;
+    margin-left: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
